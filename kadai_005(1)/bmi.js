@@ -9,4 +9,5 @@ let shinchou;
 
 shinchou = 1.7;
 
-console.log(taijyu/shinchou ** 2)
+let bmi = taijyu / (shinchou ** 2);
+console.log(bmi);
