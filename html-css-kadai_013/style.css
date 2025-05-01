@@ -59,7 +59,9 @@ PC用のスタイル
     color: #0d0d0d;
   }
 
-  
+  #menu-sp{display: none;}
+#nav-sp{display: none;}
+
 }
 @media screen and (max-width: 767px) {
   body{min-width: 375px;
@@ -96,10 +98,34 @@ z-index: 100;}
         margin: 0 20px 0 20px;
       height: 44px;
     font-size: 16px;
-  background-image: url("image/arrow.png");
+  background-image: url("images/arrow.png");
 background-repeat: no-repeat;
 background-position: right top;}
-#menu-sp{display: none;}
-#nav-sp{display: none;}
 
+  #main-visual {
+    position: relative;
+    height: 470px;
+  }
+
+  #main-visual > div {
+    text-align: center;
+    height: 280px;
+  }
+
+  #main-visual h1 {
+    font-size: 28px;
+    margin: 90px 0 0 0;
+  }
+
+  #main-visual > div > p {
+    margin: 0;
+    font-size: 15px;
+  }
+
+  #main-visual > img {
+    width: 100%;
+    border-radius: 476px 0 0 0;
+    top: auto;
+    bottom: 0;
+  }
 }
